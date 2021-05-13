@@ -1,7 +1,9 @@
-const button = document.querySelector('#enviar') // evento de validação
+const button = document.querySelector('#enviar')
+// evento de validação
 button.addEventListener('click', function (event) {
   event.preventDefault()
   const senha = document.querySelector('#senha').value
+  const confirmaSenha = document.querySelector(`#confirmaSenha`)
   const email = document.querySelector('#email').value
   validaEmailESenha(email, senha)
 })
@@ -52,7 +54,7 @@ function validaSenhaUsuario(senha1) { //validação de senha
 }
 
 function validaEmailESenha(email, senha) { //preenchimento de email e senha caso sejam válidos no constructor da classe
-    const usuario1;
+    // const usuario1;
   if (validaEmailUsuario(email) == true && validaSenhaUsuario(senha) == true) {
     console.log('Bem vindo a Resíliaflix! Seu cinema pessoal!')
     usuario1 = new Usuario(email, senha)

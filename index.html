@@ -1,19 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
 
-    <title>Resilia-Flix</title>
-  </head>
-  <body>
-    <h1></h1>
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>ResiliaFlix</h1>
+    </header>
+    <main>
+        <section class="cadastro-invisivel">
+            <form action="">
+                <label>Nome:
+                <input  id="nome" type="text" size="40" required></label><br />
+                <label>E-mail:
+                <input type="email" id="email" size="40" required></label><br />
+                <label>Senha:
+                <input type="password" id="senha" size="30" required></label><br />
+                <label>Confirmação de Senha:
+                <input type="password" id="confirmaSenha" size="30" required></label></br>    
+                <label>RG:
+                <input type="text" id="rg" size="15" required></label></br>
+                <button id="enviar" alt="enviar">Cadastrar</button>
+            </form>
+        </section>
 
-    <form action="">
-      <input type="password" id="senha" placeholder="Senha" />
-      <input type="email" required id="email" placeholder="E-mail" />
-      <button id="enviar" alt="enviar">OK</button>
-    </form>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="Resilaflx.js"></script>
-  </body>
+        <section class="endereco-invisivel">
+            <form method="" action=".">    
+                <label>Cep:
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" /></label><br />
+                <label>Rua:
+                <input name="rua" type="text" id="rua" size="60" /></label><br />
+                <label>Número:
+                <input name="numero" type="number" id="numero" size="8"></label><br />
+                <label>Complemento:
+                <input name="complemento" type="text" id="complemento" size="60" /></label><br />
+                <label>Bairro:
+                <input name="bairro" type="text" id="bairro" size="40" /></label><br />
+                <label>Cidade:
+                <input name="cidade" type="text" id="cidade" size="40" /></label><br />
+                <label>Estado:
+                <input name="uf" type="text" id="uf" size="2" /></label><br />  
+            </form>
+        </section>
+    </main>
+      <script src="js/validacao.js"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="js/jquery(requisicaoCep).js"></script>
+</body>
 </html>
