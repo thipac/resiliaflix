@@ -1,0 +1,90 @@
+/*Estilo Geral */
+
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+font-family: Helvetica;
+color:#f8f8f8;
+border: none;
+
+}
+/*ESTILO DO PLANO DE FUNDO IMAGEM */
+body{
+    background-image:url('netflix.jpg');
+    background-size:cover;
+}
+/*Resiliaflix*/
+h2 {
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    font-family: arial;
+    padding: 20px 30px;
+    font-size: 60px;
+    
+}
+/*tira a borda azul */
+textarea:focus, input:focus{
+    outline:none;
+}
+/*Controla a fonte no html ( 16 * 8 = X )   */
+a{
+    font-size: .8rem;
+}
+a:hover{
+    color: #9e0303;
+}
+/*container login*/
+#login-container {
+    background-color:#a3a1a1;
+    opacity: 0.7;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align:center;
+    
+}
+/* FOrmulario */
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display:block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom:20px;
+}
+#forgot-pass {
+    text-align:right;
+    display:block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    height:40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:rgb(58, 56, 56);
+    background-color: red;
+}
