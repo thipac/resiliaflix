@@ -13,75 +13,70 @@
 <body>
     <header class="header">
         <h1 class="titulo">ResiliaFlix</h1>
-        <nav class="nav">Entrar</nav>
+        <a href="" class="nav">Entrar</a>
     </header>
     <main class="container-principal">
         <section class="caixa-central">
-            <section class="cadastro-inicial invisivel">            
+            <div class="cadSucesso oculto">
+                <h2>Cadastro realizado com sucesso, agora é entrar e se divertir. <br><br>
+                    Quer assitir aos melhores filmes, assista no <strong ><a class="resilia"  href="">ResiliaFlix!</a></strong><br>
+                    </h2>
+            </div>
+            <div class="formsIni inicioInvisivel">
+            <section class="cadastro-inicial inic-nvisivel">            
                 <form class="formulario">
-                    <div class="titulo-formulario"><h3>Crie uma senha e conclua a primeira etapa de cadastro.</h3><br></div>
-                    <label>Nome:</label>
-                    <input  id="nome" type="text" size="40" required><br>
-
-                    <label>E-mail:</label>
-                    <input type="email" id="email" size="40" placeholder="...@exemple.com" required > <br>
-        
-                    <label>Senha:</label>
-                    <input type="password" id="senha" size="30" required ><br>
-            
-                    <label>Confirmação de Senha:</label>
-                    <input type="password" id="confirmSenha" size="30" required><br>
-                    
-                    <label>RG:</label>
-                    <input type="text" id="rg" size="30" required><br>
-                    
-                    <button class="btn" id="enviar" alt="enviar">Cadastrar</button>
+                    <h2 class="titulo-formulario">ResiliaFlix</h2><br>
+                    <div class="info-formulario">
+                        <h3>Crie uma senha e conclua a primeira etapa de cadastro.</h3><br>
+                    </div>
+                        <label>Nome:</label>
+                        <input  id="nome" type="text" size="40" required><br>
+                        <label>E-mail:</label>
+                        <input type="email" id="email" size="40" placeholder="...@exemple.com" required > <br>
+                        <label>Senha:</label>
+                        <input type="password" id="senha" size="30" required ><br>
+                        <label>Confirmação de Senha:</label>
+                        <input type="password" id="confirmSenha" size="30" required><br>
+                        <label>RG:</label>
+                        <input type="number" id="rg" size="15" maxlength="14" required><br>
+                        <button class="btn" id="enviar" alt="enviar">Cadastrar</button>
                 </form>
             </section>
-
-            <section class="cadastro-endereco invisivel">
-                <form class="formulario" action=".">   
-                    
-                    <label>Cep:</label>
-                    <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" ><br>
-                
-                    <label>Rua:</label>
-                    <input name="rua" type="text" id="rua" size="60" ><br>
-                    
-                    <label>Número:</label>
-                    <input name="numero" type="number" id="numero" size="8"><br  required><br>
-                    
-                    <label>Complemento:</label>
-                    <input name="complemento" type="text" id="complemento" size="60" ><br>
-                    
-                    <label>Bairro:</label>
-                    <input name="bairro" type="text" id="bairro" size="40"><br>
-                
-                    <label>Cidade:</label>
-                    <input name="cidade" type="text" id="cidade" size="40"><br>
-            
-                    <label>Estado:</label>
-                    <input name="uf" type="text" id="uf" size="2"><br>
-                    
-                    <button class="btn"  id="enviarCadastro">Cadastrar</button>
-                </form>
-            </section>
+            </div>
+            <div class="formsEnd invisivel" id="formsEndereco" >
+                <section class="cadastro-endereco" >
+                    <form class="formulario" action=".">
+                        <h2 class="titulo-formulario">ResiliaFlix</h2><br>
+                        <div class="info-formulario">
+                            <h3>Finalize seu cadastro com os dados de seu endereço.</h3><br>   
+                        </div>
+                            <label>Cep:</label>
+                            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" required ><br>
+                            <label>Rua:</label>
+                            <input name="rua" type="text" id="rua" size="60" ><br>
+                            <label>Número:</label>
+                            <input name="numero" type="number" id="numero" size="8" required><br>
+                            <label>Complemento:</label>
+                            <input name="complemento" type="text" id="complemento" size="60" ><br>
+                            <label>Bairro:</label>
+                            <input name="bairro" type="text" id="bairro" size="40"><br>
+                            <label>Cidade:</label>
+                            <input name="cidade" type="text" id="cidade" size="40"><br>
+                            <label>Estado:</label>
+                            <input name="uf" type="text" id="uf" size="2"><br>
+                            <button class="btn"  id="enviarCadastro">Cadastrar</button>
+                    </form>
+                </section>
+            </div>
         </section>
     </main>
     <footer class="rodape">
-       <nav class="nav-info">
-            <ul class= "itens-nav">
-                <li>Central de Ajuda</li>
-                <li>Privacidade</li>
-                <li>Termos de Uso</li>
-                <li>Informações Coorporativas</li>
-                <li>Perguntas Frequentes</li>
-            </ul>
-        </nav>
-    </footer >
+        <h3 class="titulo-rodape">ResiliaFlix</h3>
+        <p class="copyright">Todos os direito reservados © - 2020</p>
+    </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <script src="js/jquery(requisicaoCep).js"></script>
       <script src="js/Resiliaflx.js"></script>
-
+        <script src="js/telaInterativa.js"></script>
 </body>
 </html>

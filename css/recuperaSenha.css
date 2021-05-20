@@ -1,5 +1,8 @@
-body{
-    
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+body {
+
+   font-family: 'Montserrat', sans-serif;
 
     
 }
@@ -8,15 +11,12 @@ body{
     justify-content: space-around;
     height: 125px;
     background-color: #292828;
+    font-weight: 700;
 }
 .titulo{
     color: #D7521D;
-    font-size: 25px;
-
-    display: flex;
-    
-    
-   
+    font-size: 35px;
+    display: flex;    
     align-items: center;
 }
 .container-principal{
@@ -24,17 +24,13 @@ body{
     flex-direction: column;
     align-items: center;
     height: 500px;
-
     background-color: #F1F5F2;
-    
 }
 .caixa-principal{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-   
-
     border: 2px solid #E0E0E0;
     border-radius: 2em;
     width: 50%;
@@ -42,6 +38,12 @@ body{
 .info-forms{    
    margin-top: 10px;
    width: 80%;
+}
+.titulo-info{
+    margin-top: 10px;
+    color: #D7521D;
+    font-weight: 700;
+    text-align: center;
 }
 .btn-escolha{
     display: flex;
@@ -51,14 +53,46 @@ body{
 .forms{
     display: flex;
     flex-direction: column;
-
-    
     width: 80%;
     height: 80%;
-    
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.emailInvisivel{
+    display: none;
+}
+.telefoneInvisivel{
+    display: none;
 }
 .btn-enviar{
+    margin-top: 10px;
     background-color: #D7521D;
+    border-radius: 1em;
+}
+.cadSucesso{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    height: 550px;
+}
+.resilia{
+    font-size: 30px;
+    color: #D7521D;
+}
+
+
+.oculto{
+    display: none;
 }
 
 .rodape{
@@ -69,8 +103,7 @@ body{
     background-color: #E0E0E0;
 }
 .titulo-rodape{
+    font-weight: 700;
     margin-top: 25px;
     color: #D7521D;
-
-
 }

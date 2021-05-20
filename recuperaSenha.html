@@ -15,28 +15,35 @@
     </header>
 
     <main class="container-principal">
+        <div class="cadSucesso oculto">
+            <h2>Prontinho! Uma nova senha já foi enviada para você, agora é só aproveitar. <br><br>
+                Quer assitir aos melhores filmes, assista no <strong ><a class="resilia"  href="">ResiliaFlix!</a></strong><br>
+                </h2>
+        </div>
 
         <section class="caixa-principal">
             <div class="info-forms">
-                <h2>ResiliaFlix</h2>
+                <h2 class="titulo-info">ResiliaFlix</h2><br>
                 <p>Precisamos da confirmação de sua identidade, escolha uma das opções abaixo:</p><br>
             </div>
-                <div class="btn-escolha">
+                <div class="btn-escolha" id="btnSelect">
                     <div>
-                    <input type="radio" value="entradaEmail" name="radio" id="escolhaEmail">E-mail
+                    <input type="radio" value="entradaEmail" name="radio" id="escolhaEmail">E-mail 
                     </div>
                     <div>
-                    <input type="radio" value="entradaTel" name="radio" id="escolhaTel">Telefone
+                    <input type="radio" value="entradaTel" name="radio" id="escolhaTel">Telefone 
                     </div>
                 </div>    
                 <form class="forms">
-                    
-                        <label id="emailInvisivel">E-mail:</label>
-                        <input type="email" id="email" placeholder="...@exemple.com"><br>
-                       
-                        <label id="telefoneInvisivel">Telefone:</label>
-                        <input type="" id="tel" placeholder="(xx) xxxxx-xxxx"><br>
+                    <div id="mostraEmail" class =" email emailInvisivel">
+                        <label >E-mail:</label>
+                        <input   type="email" id="email" placeholder="...@exemple.com" class =" email"><br>
+                    </div>
 
+                    <div id="mostraTel" class="tel telefoneInvisivel">   
+                        <label>Telefone:</label>
+                        <input  type="number" id="tel" placeholder="(xx) xxxxx-xxxx" class="tel"><br>
+                    </div>    
                         <button id="btnRecupera" class="btn-enviar">Enviar</button><br>
                        
                 </form>
@@ -46,5 +53,7 @@
         <h3 class="titulo-rodape">ResiliaFlix</h3>
         <p class="copyright">Todos os direito reservados © - 2020</p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/telaInterativa.js"></script>
 </body>
 </html>
