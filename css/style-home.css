@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+body {
+   background-color: #090A0C ; 
+   font-family: 'Montserrat', sans-serif;
+   color:#F1F5F2;
+}
+
+header {
+    position: fixed;
+    background-color: #292828;
+}
+
+span {
+    color: #D7521D;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.center {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.banner{
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-height: 37.50rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.overlay {
+    margin-top: 6rem;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3) ;
+}
+
+.texto-destaque {
+    color: #F1F5F2;
+    z-index: 3;
+    position: relative;
+    margin-top: 5rem;
+    margin-left: 4% ;
+}
+
+.logofilme {
+    width: 200px;
+    
+}
+
+.texto-destaque h3 {
+    margin: 20px 0;
+    font-size: 30px;
+    color: #E0E0E0;
+    font-weight: 500;
+}
+
+.texto-destaque p {
+    font-size: 18px;
+    color: #E0E0E0;
+    justify-self: left;
+    margin-right: 70%;
+    font-weight: 300;
+}
+
+.texto-destaque a {
+    background-color: rgba(100, 100, 100, 0.3);
+    color: #F1F5F2;
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.texto-destaque a:hover{
+    background-color: #F1F5F2;
+    color: #292828;
+}
+
+.titulo-carousel {
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.titulo-carousel h3 {
+    color: #E0E0E0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.owl-carousel img {
+    width: 200px;
+    height: 175px;
+    object-fit: fill;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #ced3db;
+}
+
+.titulo-filme {
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ced3db;
+}
+
+.enredo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #ced3db;
+}
+
+.atores {
+    padding-top: 8px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ced3db;
+}
+
+.enredo-texto {
+    padding: 8px;
+    margin: 0 250px ;
+    text-justify: newspaper;
+    font-weight: 500;
+    color: #ced3db;
+}
+
+.ano {
+    font-weight: 500;
+    padding: 8px; 
+    text-transform: uppercase;
+    color: #ced3db;
+}
+
+main {
+   
+}
+
+.contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.fotoPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

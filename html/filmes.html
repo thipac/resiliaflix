@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css">
+   
+    <title>Bem-Vindo a ResiliaFlix</title>
+    <link rel="stylesheet" href="../css/style-home.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="center">
+            <div class="logo">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-inverse style="color: #D7521D;>
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><span>RESILIAFLIX</span> </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/home.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../html/filmes.html">Filmes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../html/contato.html">Contato</a>
+                          </li>                          
+                        </ul>
+                        <input class="form-control me-2" id="titulo" placeholder="Escolha seu filme" aria-label="Search">
+                        <button class="btn btn-outline-light" id="bfilme"  alt="pesquisar">Buscar</button>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="info">
+            <h1 class="titulo-filme" id="titulo-filme"></h1>
+            <img class="banner-filme" src="" alt="" id="poster">
+            <div class="enredo">
+                <h4 class="atores" id="elenco"></h4>
+                <p class="enredo-texto" id ="enredo">
+                  <p class="enredo-texto" id ="genero"></p>
+                </p>
+                <p class="ano" id="ano"></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/Resilaflx.js"></script>
+</body>
+</html>

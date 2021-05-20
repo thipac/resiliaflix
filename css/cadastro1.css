@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+body {
+
+   font-family: 'Montserrat', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 125px;
+    background-color: #292828;
+    font-weight: 700;
+}
+
+.titulo{
+    color: #D7521D;
+    font-size: 35px;
+    
+    display: flex;
+    
+    
+   
+    align-items: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+
+    color: #D7521D;
+
+}
+.container.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #F1F5F2;
+}
+.caixa-central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formsIni{
+    width: 40%;
+}
+
+.cadastro-inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #E0E0E0;
+    border-radius: 2em;
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    
+}
+.titulo-formulario{
+    text-align: center;
+    color: #D7521D;
+    font-weight: 700;   
+}
+.info-formulario{
+    text-align: start;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;  
+    width: 90%
+}
+
+.btn{
+    background-color: #D7521D;
+    border-radius: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.invisivel{
+    display: none;
+} 
+.formsEnd{
+    width: 40%;
+}
+
+.cadastro-endereco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid #E0E0E0;
+    border-radius: 2em;
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+}
+.cadSucesso{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    height: 550px;
+}
+.resilia{
+    font-size: 30px;
+    color: #D7521D;
+}
+
+
+.oculto{
+    display: none;
+}
+
+.rodape{
+    margin-top: 40px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E0E0E0;
+    position: absolute;
+    width: 100%;
+}
+.titulo-rodape{
+    font-weight: 700;
+    margin-top: 25px;
+    color: #D7521D;
+}

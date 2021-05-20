@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <title>Bem-Vindo a ResiliaFlix</title>
+    <link rel="stylesheet" href="../css/style-home.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="center">
+            <div class="logo">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-inverse style="color: #D7521D;>
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"><span>RESILIAFLIX</span> </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" href="../html/home.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../html/filmes.html">Filmes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="../html/contatos.html">Contatos</a>
+                          </li>
+                          
+                        </ul>
+                        <form class="d-flex">
+                          <input class="form-control me-2" type="search" placeholder="Escolha seu filme" aria-label="Search">
+                          <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+       <section class="destaque">
+      <img class="banner" src="../img/TheGodfather.jpg" alt="The GodFather">
+        <div class="overlay"></div>
+        <div class="texto-destaque">
+            <img class="logofilme" src="../img/thegodfatherlogo.png" alt="">
+            <h3>Assita ao filme aqui</h3>
+            <p>Um filme norte-americano de 1972, dirigido por Francis Ford Coppola, baseado no livro homônimo escrito por Mario Puzo.</p>
+            <a href=""><i class="fas fa-play-circle fa-lg "> 
+            </i> Assistir</a>
+            <a href=""><i class="fas fa-plus-circle fa-lg">
+            </i> Minha Lista </a>
+            <a href=""><i class="fas fa-info-circle fa-lg">
+            </i> Mais Informações</a>
+            <div class="titulo-carousel">
+              <h3>Populares na ResiliaFlix</h3>
+            </div>
+        <div class="owl-carousel owl-theme">
+           
+           <div class="item"> <a id="titanic" href=""><img src="../img/Titanic.jpg"></a></div>
+           <div class="item"> <a id="god" href=""><img src="../img/godfather.jpg"></a></div>
+           <div class="item"> <a id="toy" href=""><img src="../img/toystory.jpg"></a></div>
+           <div class="item"> <a id="rambo" href=""><img src="../img/rambo.jpg"></a></div>
+           <div class="item"> <a id="casablaca" href=""><img src="../img/casablanca.jpg"></a></div>
+           <div class="item"> <a id="star" href=""><img src="../img/starwars.jpg"></a></div>
+           <div class="item"> <a id="pie" href=""><img src="../img/pie.jpg"></a></div>
+           <div class="item"> <a id="karate" href=""><img src="../img/karatekid.jpg"></a></div>
+           <div class="item"> <a id="et" href=""><img src="../img/et.jpg"></a></div>
+           <div class="item"> <a id="gremlins" href=""><img src="../img/gremilins.jpg"></a></div>
+           <div class="item"> <a id="tarzan" href=""><img src="../img/tarzan.jpg"></a></div>
+           <div class="item"> <a id="ghost" href=""><img src="../img/ghost.jpg"></a></div>
+        </div>
+    </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../js/carousel.js"></script>
+    <script src="../js/Resilaflx.js"></script>
+</body>
+</html>
