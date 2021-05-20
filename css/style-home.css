@@ -113,12 +113,14 @@ span {
     justify-content: center;
     align-items: center;
     align-content: center;
+    color: #ced3db;
 }
 
 .titulo-filme {
     font-size: 48px;
     font-weight: 300;
     text-transform: uppercase;
+    color: #ced3db;
 }
 
 .enredo {
@@ -127,12 +129,14 @@ span {
     justify-content: center;
     align-items: center;
     align-content: center;
+    color: #ced3db;
 }
 
 .atores {
     padding-top: 8px;
     font-size: 24px;
     font-weight: 300;
+    color: #ced3db;
 }
 
 .enredo-texto {
@@ -140,12 +144,14 @@ span {
     margin: 0 250px ;
     text-justify: newspaper;
     font-weight: 500;
+    color: #ced3db;
 }
 
 .ano {
     font-weight: 500;
     padding: 8px; 
     text-transform: uppercase;
+    color: #ced3db;
 }
 
 

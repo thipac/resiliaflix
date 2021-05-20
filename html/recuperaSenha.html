@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/recuperaSenha.css" />
+
+    <title>Recuperação de Senha</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="titulo">ResiliaFlix</h1>
+    </header>
+
+    <main class="container-principal">
+      <section class="caixa-principal">
+        <div class="info-forms">
+          <h2>ResiliaFlix</h2>
+          <p>
+            Precisamos da confirmação de sua identidade, escolha uma das opções
+            abaixo:
+          </p>
+          <br />
+        </div>
+        <div class="btn-escolha">
+          <div>
+            <input
+              type="radio"
+              value="entradaEmail"
+              name="radio"
+              id="escolhaEmail"
+            />
+            E-mail
+          </div>
+          <div>
+            <input
+              type="radio"
+              value="entradaTel"
+              name="radio"
+              id="escolhaTel"
+            />
+            Telefone
+          </div>
+        </div>
+        <form class="forms">
+          <label id="emailInvisivel">E-mail:</label>
+          <input type="email" id="email" placeholder="...@exemple.com" />
+          <br />
+
+          <label id="telefoneInvisivel">Telefone:</label>
+          <input type="" id="tel" placeholder="(xx) xxxxx-xxxx" />
+          <br />
+
+          <button id="btnRecupera" class="btn-enviar">Enviar</button>
+          <br />
+        </form>
+      </section>
+    </main>
+    <footer class="rodape">
+      <h3 class="titulo-rodape">ResiliaFlix</h3>
+      <p class="copyright">Todos os direito reservados © - 2020</p>
+    </footer>
+    <script src="../js/Resilaflx.js"></script>
+  </body>
+</html>
