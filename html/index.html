@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-
-    <title>Resilia-Flix</title>
-  </head>
-  <body>
-    <form action="">
-      <input type="email" required id="email" placeholder="E-mail" />
-      <input type="password" id="senha" placeholder="Senha" />
-      <input
-        type="password"
-        id="confirmSenha"
-        placeholder="confirme sua senha"
-      />
-
-      <button id="enviar" alt="enviar">OK</button>
-      <input
-        type="text"
-        id="titulo"
-        placeholder="Pesquise seu título de filme."
-        alt="Pesquisa Filme"
-      />
-      <button id="pesquisar" alt="pesquisar">Pesquisar</button>
-      <img src="" id="imagem" />
-    </form>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="Resilaflx.js"></script>
-  </body>
+<html lang="br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resilia Flix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/v4-shims.min.css">
+    <link rel="stylesheet" href="../css/reset1.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <h2> RESILIAFLIX</h2>
+    <div id="login-container">
+        <h1>Entrar</h1>
+        <form action="">
+            <label for="email">E-mail</label>
+            <input type="email" name= "email" id="email" placeholder="Digite seu e-mail" autocomplete="off">
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="senha" placeholder="Digite sua senha">
+            <a href="./recuperaSenha.html" id="forgot-pass">Esqueceu a senha?</a>
+            <a href="../html/home.html" id="navegacao">Entrar</a>
+            <div id="register-contanier">
+                <p>Novo por aqui?</p>
+                <a href="../html/">Assine agora.</a>
+        </div>  
+        </form>
+        <div id="register-contanier">    
+</body>
 </html>

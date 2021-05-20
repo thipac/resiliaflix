@@ -44,14 +44,16 @@ function validaEmail(email) {
   if (entrada.indexOf('@') == -1 || entrada.indexOf('.') == -1) {
     alert(msgErroEmail)
   } else {
-    return (this._email = entrada.join(''))
+    this._email = entrada.join('')
+    return true
   }
 }
 function validaSenha(senha) {
   if (senha.length < 6) {
     alert(msgErroSenha)
   } else if (senha.length >= 6) {
-    return (this._senha = senha)
+    this._senha = senha
+    return true
   }
 }
 function confirmaSenha(senha) {
@@ -64,23 +66,11 @@ function confirmaSenha(senha) {
   }
 }
 //camada de controle
-$('#pesquisar').on('click', function (event) {
-  console.log(event)
+
+$('#bfilme').on('click', function (event) {
   event.preventDefault()
   let filme = $('#titulo').val().toString()
-  console.log(filme)
   requisicao(filme)
-})
-// interação com usuário
-
-$('#enviar').on('click', function (event) {
-  event.preventDefault()
-  const emailDig = $('#email').val().toString()
-  const senhaDig = $('#senha').val().toString()
-  let conSenha = $('#confirmSenha').val().toString()
-  const usuario = new Usuario(validaEmail(emailDig), validaSenha(senhaDig))
-  validaConfirmacaoSenha(conSenha)
-  console.log(usuario)
 })
 function validaConfirmacaoSenha(conSenha) {
   if (confirmaSenha(conSenha) == false) {
@@ -88,5 +78,16 @@ function validaConfirmacaoSenha(conSenha) {
   } else {
     alert(msgBoasVindas)
   }
+  // interação com usuário
+  //pagina de cadastro
+  $('#enviar-2').on('click', function (event) {
+    event.preventDefault()
+    console.log('Caiu')
+    const emailDig = $('#email').val().toString()
+    const senhaDig = $('#senha').val().toString()
+    let conSenha = $('#confirmSenha').val().toString()
+    const usuario = new Usuario(validaEmail(emailDig), validaSenha(senhaDig))
+    validaConfirmacaoSenha(conSenha)
+    console.log(usuario)
+  })
 }
-// chamar index do Thiago nesse botão que volta a requisição

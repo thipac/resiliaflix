@@ -1,0 +1,95 @@
+* { padding: 0; 
+    margin: 0; 
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo Geral */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap');
+
+/*ESTILO DO PLANO DE FUNDO IMAGEM */
+body{
+    background-image:url(../img/image.jpeg);
+    background-size:cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Resiliaflix*/
+h2 {
+    color: #D7521D;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    font-size: 60px;
+    font-weight: 700;
+}
+/*tira a borda azul */
+textarea:focus, input:focus{
+    outline:none;
+}
+/*Controla a fonte no html ( 16 * 8 = X )   */
+a{
+    font-size: .8rem;
+}
+a:hover{
+    color: #9e0303;
+}
+/*container login*/
+#login-container {
+    background-color:#E0E0E0;
+    opacity: 0.7;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align:center;
+    
+}
+/* Formulario */
+h1,form {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+label, input {
+    display:block;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+input {
+    border-bottom: 2px solid #E0E0E0;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom:20px;
+}
+#forgot-pass {
+    text-align:right;
+    display:block;
+} 
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    height:40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    color:rgb(58, 56, 56);
+    background-color: red;
+}
+p {
+    display:block;
+    text-align: justify;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
