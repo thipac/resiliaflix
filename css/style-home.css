@@ -154,28 +154,6 @@ span {
     color: #ced3db;
 }
 
-main {
-   
-}
-
-.contatos {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 50px;
-    left: 0;
-    right: 0;
-}
-
-.fotoPerfil {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 8px;
-
-}
 
 
 
